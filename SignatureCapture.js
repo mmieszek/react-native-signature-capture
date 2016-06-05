@@ -1,15 +1,21 @@
 
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
+
 var {
-    PropTypes,
+  PropTypes
+  Component
+} = React;
+
+var {
     requireNativeComponent,
     View,
     UIManager
-} = React;
+} = ReactNative;
 
-class SignatureCapture extends React.Component {
+class SignatureCapture extends Component {
 
     constructor() {
         super();
